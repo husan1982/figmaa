@@ -342,16 +342,16 @@ footer .footer-box{
 }
 footer .footer-box img{
     width: 100%;
-    height: 100%;
-    
+    margin-right: 40px;
 }
 footer .footer-box p{
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
+   
 }
 footer .footer-box a{
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
 }
 footer .footer-box .den{
     text-decoration: underline !important;
@@ -387,7 +387,7 @@ footer .footer-box .den{
     }
     footer .footer-box p, a{
         font-size: 12px;
-        
+        margin-top: 25px;
     }
     footer .footer-box{
         display: flex;
@@ -395,6 +395,9 @@ footer .footer-box .den{
     }
     footer .footer-box p, a {
         font-size: 24px;
+    }
+    footer .footer-box img{
+        display: none;
     }
 }
 
